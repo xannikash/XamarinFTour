@@ -8,7 +8,8 @@ namespace XFTour
 		{
 			InitializeComponent();
 
-			MainPage = new XFTourPage();
+			MainPage = new NavigationPage(new SplashView());
+			//MainPage = new SplashView();
 		}
 
 		protected override void OnStart()

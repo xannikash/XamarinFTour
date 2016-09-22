@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		x:Class="XFTour.SplashView"
+		BackgroundColor="#2C3E50">
+    <StackLayout Spacing="5" VerticalOptions="Center">
+        <Image Source="app_icon.png" />
+        <Label FontAttributes="Bold" FontSize="28" HorizontalTextAlignment="Center" TextColor="#FFFFFF" XAlign="Center">Xamarin Forms Tour</Label>
+        <Label HorizontalTextAlignment="Center" VerticalTextAlignment="End" XAlign="Center" TextColor="#FFFFFF" YAlign="End">Developed By: Nikhil &amp; Ashwin</Label>
+    </StackLayout>
+</ContentPage>
